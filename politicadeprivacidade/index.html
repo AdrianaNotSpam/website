@@ -399,4 +399,43 @@ h2 em{font-style:normal;display:inline-block;background:var(--amarelo);color:var
     </div>
   </div>
 </footer>
+<div class="consent" id="consent" role="region" aria-label="Consentimento de cookies" hidden>
+  <p>Usamos cookies para perceber como o site é usado e para comunicar os nossos serviços.
+     Podes recusar e continuar a navegar. <a href="politicadeprivacidade/">Política de Privacidade</a></p>
+  <div class="consent-bt">
+    <button type="button" class="nao" id="consent-nao">Recusar</button>
+    <button type="button" class="sim" id="consent-sim">Aceitar</button>
+  </div>
+</div>
+
+<script>
+(function(){
+  var GA = 'G-70PRXPKGZK';
+  var caixa = document.getElementById('consent');
+  if (!caixa || !GA) return;
+  var CHAVE = 'ns-consent', guardado = null;
+  try { guardado = localStorage.getItem(CHAVE); } catch (e) {}
+  function carregarGA(){
+    if (window.__gaCarregado) return;
+    window.__gaCarregado = true;
+    var s = document.createElement('script');
+    s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){ window.dataLayer.push(arguments); };
+    gtag('js', new Date()); gtag('config', GA, {anonymize_ip: true});
+  }
+  function responder(v){
+    try { localStorage.setItem(CHAVE, v); } catch (e) {}
+    caixa.hidden = true;
+    if (v === 'sim') carregarGA();
+  }
+  if (guardado === 'sim') { carregarGA(); return; }
+  if (guardado === 'nao') return;
+  caixa.hidden = false;
+  document.getElementById('consent-sim').addEventListener('click', function(){ responder('sim'); });
+  document.getElementById('consent-nao').addEventListener('click', function(){ responder('nao'); });
+})();
+</script>
+
 </body></html>
