@@ -499,7 +499,10 @@ h2 em{font-style:normal;display:inline-block;background:var(--amarelo);color:var
       var ns = en.target.querySelectorAll('.v');
       ns.forEach(function(el){ contar(el); });
     });
-  }, {threshold: 0.22, rootMargin: '0px 0px -8% 0px'});
+  // threshold 0: uma fraccao do elemento nao serve, porque uma seccao mais alta
+  // que o ecra nunca a atinge. Num iPhone SE os testemunhos (2971px) chegavam a
+  // 20% e ficavam invisiveis para sempre. Agora dispara quando o topo entra.
+  }, {threshold: 0, rootMargin: '0px 0px -14% 0px'});
   alvos.forEach(function(e){ obs.observe(e); });
 
   var man = document.getElementById('manifesto');
