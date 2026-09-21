@@ -239,7 +239,10 @@ h2 em{font-style:normal;display:inline-block;background:var(--amarelo);color:var
 .consent .sim{background:var(--amarelo);color:var(--preto)}
 .consent .nao{background:transparent;color:var(--branco);box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.4)}
 .consent button:focus-visible{outline:3px solid var(--amarelo);outline-offset:3px}
-@media (max-width:620px){.consent{flex-direction:column;align-items:stretch}
+@media (max-width:620px){.consent{flex-direction:column;align-items:stretch;
+  gap:var(--sp-4);padding:var(--sp-4)}
+ /* em coluna, o flex-basis do paragrafo passaria a ser altura: 300px de vazio */
+ .consent p{flex:0 0 auto;min-width:0}
  .consent-bt{display:grid;grid-template-columns:1fr 1fr}}
 /* rodape */
 .pe{background:var(--azul-escuro);color:var(--branco);padding:var(--sp-8) 0 var(--sp-6)}
