@@ -421,6 +421,8 @@ h2 em{font-style:normal;display:inline-block;background:var(--amarelo);color:var
 .para-ti .n{font-family:var(--serif);font-weight:700;font-size:34px;line-height:1;color:var(--laranja)}
 .para-ti p{margin:0;font-size:17px;line-height:1.6}
 /* fecho */
+.fim-caso{background:var(--azul-escuro);color:var(--branco)}
+.pe.so-fim{padding-top:0}
 .fim-caso h2{max-width:20ch} .fim-caso .corpo{margin-bottom:var(--sp-6);opacity:.95}
 .fim-caso .fecho{margin-bottom:var(--sp-8)}
 .outro{display:grid;grid-template-columns:1fr auto;grid-template-rows:auto auto auto;column-gap:var(--sp-5);
@@ -444,6 +446,11 @@ h2 em{font-style:normal;display:inline-block;background:var(--amarelo);color:var
 <style>
 .cons-hero{padding-bottom:var(--sp-7);min-height:94vh;display:flex;flex-direction:column;justify-content:center}
 .cons-hero h1{max-width:22ch}
+.cons-hero{padding-top:var(--sp-4)!important}
+.cons-hero .wrap.cons-topo{display:block;text-align:left;align-self:stretch;width:100%;max-width:var(--larg)}
+.cons-hero .cons-topo .topo{width:100%;justify-content:space-between}
+.cons-hero .cons-centro{margin:auto;padding-top:var(--sp-6)}
+.cons-hero .topo{margin-bottom:0}
 .cons-hero .sub-hero p{font-size:19px;line-height:1.6;max-width:72ch;margin:0 0 1em}
 .cons-hero .fecho{margin-top:var(--sp-5);gap:var(--sp-5)}
 .cons-hero .link{color:var(--branco)}
@@ -561,9 +568,10 @@ h2 em{font-style:normal;display:inline-block;background:var(--amarelo);color:var
 </style>
 
 </head><body>
-<div class="barra visivel">
+<div class="barra" id="barra">
   <div class="wrap">
     <a href="#topo" aria-label="notSPAM.studio, topo da página"><img src="/a/1609d0bbc33d.png" alt="notSPAM.studio"></a>
+    <nav aria-label="Navegação principal"><ul><li><a href="#metodo">O método</a></li><li><a href="#como-funciona">Como funciona</a></li><li><a href="#casos">Casos</a></li><li><a href="#faq">Perguntas</a></li></ul></nav>
     
     <a class="cta amarelo cta-barra" href="mailto:ola@notspamstudio.com?subject=Consultoria%20notSPAM">Vamos falar<span class="seta">&rarr;</span></a>
   </div>
@@ -571,7 +579,8 @@ h2 em{font-style:normal;display:inline-block;background:var(--amarelo);color:var
 <main class="caso cons">
 
 <header class="caso-hero cons-hero" id="topo">
-  <div class="wrap">
+  <div class="wrap cons-topo"><div class="topo"><a href="#topo" aria-label="notSPAM.studio, topo da página"><img class="marca" src="/a/1609d0bbc33d.png" alt="notSPAM.studio"></a><nav aria-label="Navegação principal"><ul><li><a href="#metodo">O método</a></li><li><a href="#como-funciona">Como funciona</a></li><li><a href="#casos">Casos</a></li><li><a href="#faq">Perguntas</a></li></ul></nav></div></div>
+  <div class="wrap cons-centro">
     <p class="eyebrow">Consultoria de email marketing</p>
     <h1><span class="h1-cima">A tua base de dados pode render </span><em>muito mais</em>.</h1>
     <div class="sub-hero"><p>Através do método ADM, oriento a tua equipa a transformar a base de dados que já tens em conversões e recorrência. A tua equipa executa. Eu oriento o quê, para quem e porquê.</p></div>
@@ -707,4 +716,6 @@ h2 em{font-style:normal;display:inline-block;background:var(--amarelo);color:var
 })();
 </script>
 
+<script>(function(){var b=document.getElementById('barra'),h=document.getElementById('topo');
+if(b&&h){new IntersectionObserver(function(e){b.classList.toggle('visivel',!e[0].isIntersecting);},{threshold:0,rootMargin:'-120px 0px 0px 0px'}).observe(h);}})();</script>
 </body></html>
