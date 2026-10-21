@@ -1,0 +1,630 @@
+<!doctype html><html lang="pt-PT"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Caso Frederica | notSPAM.studio</title>
+<meta name="description" content="Uma marca de suplementos com subscrições, uma equipa que já fazia tudo, e uma pergunta que ninguém estava a fazer: para quem é este email?">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://www.notspamstudio.com/consultoria/frederica">
+<meta property="og:type" content="article"><meta property="og:title" content="Caso Frederica | notSPAM.studio">
+<meta property="og:description" content="Uma marca de suplementos com subscrições, uma equipa que já fazia tudo, e uma pergunta que ninguém estava a fazer: para quem é este email?">
+<meta property="og:url" content="https://www.notspamstudio.com/consultoria/frederica"><meta property="og:image" content="https://www.notspamstudio.com/og-image.jpg">
+<meta property="og:locale" content="pt_PT"><meta property="og:site_name" content="notSPAM.studio">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E%F0%9F%93%A7%3C/text%3E%3C/svg%3E">
+<script>document.documentElement.className+=' js'</script>
+<style>
+@font-face{font-family:'Rockwell Nova';src:url(/a/21b138d92e08.ttf) format('truetype');font-weight:700;font-display:swap}
+@font-face{font-family:'Neulis Sans';src:url(/a/8c5f74abcd92.otf) format('opentype');font-weight:600;font-display:swap}
+:root{--azul:#4f67b1;--verde:#0c5952;--laranja:#e14c22;--lilas:#bf90c6;--amarelo:#d7d55c;
+ --branco:#e6e6e6;--preto:#0d0d0d;
+ --sp-3:16px;--sp-4:24px;--sp-5:32px;--sp-6:48px;--sp-7:64px;--sp-8:96px;--sp-9:128px;
+ --r-card:16px;--r-pill:999px;--barra-h:66px;--azul-escuro:#23304f;--larg:1180px;
+ --serif:'Rockwell Nova',Georgia,serif;--sans:'Neulis Sans',system-ui,sans-serif;
+ --body:Arimo,Arial,Helvetica,sans-serif}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--body);background:var(--branco);color:var(--preto);
+ -webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block} a{text-decoration:none;color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:700;letter-spacing:-.02em;margin:0;text-wrap:balance}
+.wrap{max-width:var(--larg);margin:0 auto;padding:0 var(--sp-5)}
+.eyebrow{font-family:var(--sans);font-weight:600;font-size:12px;letter-spacing:.08em;
+ text-transform:uppercase;margin:0 0 var(--sp-4)}
+.cta{display:inline-flex;align-items:center;gap:10px;border-radius:var(--r-pill);padding:18px 34px;
+ font-family:var(--sans);font-weight:600;font-size:17px;color:var(--preto);transition:transform .15s ease}
+.cta:hover{transform:translateY(-2px)}
+.cta.amarelo{background:var(--amarelo)} .cta.verde{background:var(--verde);color:var(--branco)}
+.cta.azul-cta{background:var(--azul);color:var(--branco)}
+.lilas-sec .cta.azul-cta{background:var(--azul);color:#fff}
+.lilas-sec{background:var(--lilas);color:var(--azul-escuro)}
+.link{display:inline-flex;align-items:center;gap:8px;font-family:var(--sans);font-weight:600;font-size:16px;
+ padding-bottom:4px;border-bottom:2px solid currentColor;transition:gap .15s ease}
+.link:hover{gap:14px} .seta{font-size:19px;line-height:1}
+/* divisoria de estampa */
+.risca{background-repeat:repeat-x;background-position:center}
+.risca.flores{height:16px;background-image:url(/a/71d6afddf3c4.png);background-size:auto 16px}
+.risca.faixa2{height:16px;background-image:url(/a/4f92ad5c624b.png);background-size:auto 16px}
+
+/* ---- movimento, tudo desligavel ---- */
+.js .revela{opacity:0;transform:translateY(22px);
+ transition:opacity .7s cubic-bezier(.16,1,.3,1),transform .7s cubic-bezier(.16,1,.3,1)}
+.js .revela.dentro{opacity:1;transform:none}
+.revela.d1{transition-delay:.08s} .revela.d2{transition-delay:.16s} .revela.d3{transition-delay:.24s}
+/* frase-manifesto: acende com a posicao do scroll */
+.manifesto{background:var(--azul);color:var(--branco);padding:var(--sp-8) 0}
+.js .manifesto{padding:var(--sp-8) 0}
+.manifesto .fixo{display:flex;align-items:center;justify-content:center}
+.manifesto .wrap{max-width:1360px}
+.js .manifesto .fixo{min-height:0}
+.manifesto p{font-family:var(--serif);font-weight:700;letter-spacing:-.025em;
+ font-size:clamp(50px,7.2vw,104px);line-height:1.04;margin:0 auto .2em;max-width:18ch;
+ text-align:center;text-wrap:balance}
+.manifesto w{color:var(--branco)}
+.manifesto w.forte{color:var(--amarelo)}
+.js .manifesto w{color:rgba(230,230,230,.2);transition:color .28s ease}
+.js .manifesto w.forte{color:rgba(215,213,92,.22)}
+.js .manifesto w.on{color:var(--branco)}
+.js .manifesto w.forte.on{color:var(--amarelo)}
+.manifesto.dentro w.forte{color:var(--laranja)}
+/* comparacao */
+.versus{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-5);margin:var(--sp-7) 0}
+.lado{border-radius:var(--r-card);padding:var(--sp-6)}
+.lado.mau{background:rgba(13,13,13,.06)}
+.lado.bom{background:var(--amarelo);color:var(--preto)}
+.lado h3{font-size:22px;margin-bottom:var(--sp-5)}
+.lado ul{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-4)}
+.lado li{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;
+ font-size:16px;line-height:1.55}
+.lado .mark{font-family:var(--sans);font-weight:600;font-size:15px;line-height:1.55;width:18px}
+.lado.mau .mark{opacity:.45}
+/* marquee de palavras */
+.dizeres{background:var(--lilas);color:var(--preto);padding:var(--sp-3) 0;overflow:hidden;
+ display:flex;gap:var(--sp-6);white-space:nowrap}
+.dizeres ul{display:flex;align-items:center;gap:var(--sp-6);list-style:none;margin:0;padding:0;
+ flex:none;animation:correr 28s linear infinite}
+.dizeres li{font-family:var(--serif);font-weight:700;font-size:clamp(16px,1.8vw,23px);
+ display:flex;align-items:center;gap:var(--sp-6)}
+.dizeres li::after{content:"";width:7px;height:7px;border-radius:50%;background:var(--azul);flex:none}
+/* barra fixa: entra depois de o hero sair */
+.barra{position:fixed;top:0;left:0;right:0;z-index:50;background:var(--azul);
+ border-bottom:1px solid rgba(230,230,230,.16);color:var(--branco);
+ transform:translateY(-100%);transition:transform .35s cubic-bezier(.16,1,.3,1)}
+.barra.visivel{transform:none}
+.barra .wrap{display:flex;align-items:center;justify-content:space-between;gap:var(--sp-4);
+ padding-top:12px;padding-bottom:12px}
+.barra img{height:26px;width:auto}
+.barra nav ul{gap:var(--sp-5)}
+.barra .cta{padding:11px 20px;font-size:14px}
+/* a barra nao pode tapar o destino das ancoras */
+section[id],header[id]{scroll-margin-top:76px}
+/* hero */
+.hero{background:var(--azul);color:var(--branco);padding:var(--sp-5) 0 var(--sp-7);
+ min-height:74vh;display:flex;flex-direction:column}
+.topo{display:flex;justify-content:space-between;align-items:center;gap:var(--sp-4);margin-bottom:var(--sp-8)}
+.marca{height:38px;width:auto;align-self:flex-start;flex:none}
+nav ul{display:flex;gap:var(--sp-5);list-style:none;margin:0;padding:0;align-items:center}
+nav a{font-family:var(--sans);font-weight:600;font-size:14px;padding:6px 2px;
+ border-bottom:2px solid transparent;transition:border-color .15s ease}
+nav a:hover,nav a:focus-visible{border-bottom-color:var(--lilas)}
+.centro{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;
+ text-align:center;max-width:1040px;margin:0 auto}
+h1{font-size:clamp(36px,6.1vw,72px);line-height:1.12;margin-bottom:var(--sp-5)}
+h1 em{font-style:normal;display:inline-block;background:var(--lilas);color:var(--preto);
+ padding:.02em .16em .1em;border-radius:6px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.sub-hero{font-size:19px;line-height:1.6;max-width:58ch;margin:0 0 var(--sp-6);opacity:.95}
+.provas{border-top:1px solid rgba(230,230,230,.22);padding:var(--sp-5) 0 0;margin-top:var(--sp-6)}
+.rot{font-family:var(--sans);font-weight:600;font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+ opacity:.62;text-align:center;margin:0 0 var(--sp-5)}
+.fita{display:flex;gap:var(--sp-8);overflow:hidden;
+ -webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);
+ mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.pista{display:flex;align-items:center;gap:var(--sp-8);list-style:none;margin:0;padding:0;flex:none;
+ min-width:100%;justify-content:space-around;animation:correr 34s linear infinite}
+.fita:hover .pista{animation-play-state:paused}
+.pista img{height:30px;width:auto;filter:invert(1) grayscale(1) brightness(1.9);opacity:.85}
+@keyframes correr{from{transform:translateX(0)}to{transform:translateX(calc(-100% - var(--sp-8)))}}
+/* seccoes */
+section{padding:var(--sp-9) 0}
+.claro{background:var(--branco);color:var(--preto)}
+.verde{background:var(--verde);color:var(--branco)}
+.lilas-sec{background:var(--lilas);color:var(--azul-escuro)}
+.azul{background:var(--azul);color:var(--branco)}
+.laranja{background:var(--laranja);color:var(--branco)}
+h2{font-size:clamp(30px,4.2vw,52px);line-height:1.12;max-width:24ch;margin-bottom:var(--sp-5)}
+.junto{white-space:nowrap}
+h2 em{font-style:normal;display:inline-block;background:var(--amarelo);color:var(--preto);
+ padding:.02em .14em .08em;border-radius:5px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.corpo{font-size:18px;line-height:1.65;max-width:62ch} .corpo + .corpo{margin-top:var(--sp-4)}
+/* prova em capturas */
+.provas-grid{display:grid;grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr);
+ gap:var(--sp-6);margin:var(--sp-8) 0 0;align-items:start}
+.coluna{display:grid;gap:var(--sp-6)}
+.print{margin:0}
+.print img{width:100%;border-radius:12px;background:#fff}
+.print figcaption{margin-top:var(--sp-4);display:grid;gap:5px}
+.print figcaption strong{font-family:var(--sans);font-weight:600;font-size:16px}
+.print figcaption span{font-size:15px;line-height:1.5;opacity:.88;max-width:52ch}
+/* 2 */
+.duas{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-8);align-items:start}
+/* 3 */
+.passos{list-style:none;margin:var(--sp-4) 0 0;padding:0;display:grid;
+ grid-template-columns:1fr 1fr;gap:var(--sp-5);align-items:stretch}
+.passo{border-radius:var(--r-card);padding:var(--sp-6);display:flex;flex-direction:column}
+.passo{background:transparent;border:1.5px solid rgba(255,255,255,.8);color:var(--azul-escuro)}
+.passo.p1{border-color:#fff;border-width:2px;background:rgba(255,255,255,.16)}
+.passo .num{font-family:var(--serif);font-size:clamp(46px,5vw,68px);line-height:.9;
+ color:#fff;margin-bottom:var(--sp-4)}
+.passo h3{font-size:clamp(24px,2.4vw,30px);margin-bottom:var(--sp-4);color:var(--azul-escuro)}
+.passo p{margin:0;font-size:16px;line-height:1.6;color:var(--azul-escuro);opacity:.9}
+.passo p + p{margin-top:var(--sp-4)}
+.passo .rodape{margin-top:auto;padding-top:var(--sp-5)}
+.passo .marca-tempo{display:inline-flex;align-self:flex-start;align-items:center;gap:8px;font-family:var(--sans);
+ font-weight:600;font-size:13px;letter-spacing:.04em;text-transform:uppercase;
+ background:var(--azul-escuro);color:#fff;border-radius:var(--r-pill);padding:7px 14px;
+ margin-bottom:var(--sp-4)}
+.passo .cta{font-size:16px;padding:15px 26px}
+.passo .rodape{margin-top:auto;padding-top:var(--sp-5);align-self:flex-start}
+/* 4 */
+.itens{list-style:none;margin:var(--sp-6) 0 var(--sp-7);padding:0;display:grid;
+ grid-template-columns:repeat(3,1fr);gap:var(--sp-5)}
+.item{background:#fff;border-radius:var(--r-card);padding:var(--sp-5)}
+.item .num{font-family:var(--serif);font-weight:700;font-size:clamp(42px,3.9vw,56px);line-height:.95;
+ letter-spacing:-.02em;color:var(--laranja);display:block;margin-bottom:var(--sp-3)}
+.item h3{font-size:20px;line-height:1.25;margin-bottom:var(--sp-3);text-wrap:balance}
+.item p{margin:0;font-size:16px;line-height:1.6;opacity:.86}
+/* mural de emails: 3 colunas em movimento, cada email inteiro */
+.mural{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--sp-4);margin:var(--sp-7) 0}
+.mural-col{min-width:0}
+.mural-pista{display:flex;flex-direction:column;gap:var(--sp-4);will-change:transform}
+.mural-eco{display:flex;flex-direction:column;gap:var(--sp-4)}
+.mural figure{margin:0;position:relative;border-radius:var(--r-card);overflow:hidden;background:#fff}
+.mural img{display:block;width:100%;height:auto}
+.mural figcaption{position:absolute;left:10px;bottom:10px;font-family:var(--sans);font-weight:600;
+ font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:#fff;
+ background:rgba(20,24,40,.62);padding:5px 10px;border-radius:999px;backdrop-filter:blur(6px)}
+/* a janela e o fade so existem com JS: sem ele fica uma grelha normal */
+.js .mural{height:78vh;overflow:hidden;
+ mask-image:linear-gradient(to bottom,transparent 0,#000 13%,#000 87%,transparent 100%);
+ -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 13%,#000 87%,transparent 100%)}
+.js .mural-eco{margin-top:var(--sp-4)}
+/* 6 */
+.caps{list-style:none;margin:var(--sp-7) 0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:var(--sp-5)}
+.cap{background:var(--branco);color:var(--preto);border-radius:var(--r-card);padding:var(--sp-6)}
+.claro .cap{background:#fff}
+.cap h3{font-size:22px;margin-bottom:var(--sp-3)} .cap p{margin:0;font-size:16px;line-height:1.6}
+/* prova social */
+.dizem{column-count:3;column-gap:var(--sp-5);margin:0 0 var(--sp-8)}
+/* com JS vira colunas reais e cada cartao vai para a mais curta */
+.js .dizem.arrumado{column-count:auto;display:flex;align-items:flex-start;gap:var(--sp-5)}
+.dizem-col{flex:1 1 0;min-width:0}
+.dizem-topo{margin:0 0 var(--sp-5)}
+.dizem blockquote{break-inside:avoid;-webkit-column-break-inside:avoid;
+ background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);
+ border-radius:var(--r-card);padding:var(--sp-5);margin:0 0 var(--sp-5)}
+.dizem .quem{display:flex;align-items:center;gap:var(--sp-3);margin-bottom:var(--sp-4)}
+.rosto{width:46px;height:46px;border-radius:50%;flex:none;object-fit:cover;display:block}
+.rosto.mono{background:var(--amarelo);color:var(--azul-escuro);font-family:var(--sans);
+ font-weight:700;font-size:15px;letter-spacing:.04em;display:flex;align-items:center;justify-content:center}
+.dizem cite{font-style:normal;font-family:var(--sans);min-width:0}
+.dizem cite b{display:block;font-weight:700;font-size:15px;color:var(--amarelo);line-height:1.3}
+.dizem cite span{display:block;font-size:13px;opacity:.7;margin-top:2px;line-height:1.3}
+.dizem .diz p{font-size:15px;line-height:1.62;margin:0 0 .7em;opacity:.93}
+.dizem .diz p:last-child{margin-bottom:0}
+/* perguntas: <details> nativo, abre sem JS e o teclado ja o sabe usar */
+.faq{margin:var(--sp-7) 0 0;max-width:820px}
+.faq details{border-top:1px solid rgba(20,24,40,.14)}
+.faq details:last-of-type{border-bottom:1px solid rgba(20,24,40,.14)}
+.faq summary{list-style:none;cursor:pointer;padding:var(--sp-4) 44px var(--sp-4) 0;position:relative;
+ font-family:var(--serif);font-weight:700;font-size:clamp(17px,1.5vw,20px);line-height:1.35}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:8px;top:50%;width:11px;height:11px;
+ border-right:2.5px solid var(--azul);border-bottom:2.5px solid var(--azul);
+ transform:translateY(-70%) rotate(45deg);transition:transform .25s}
+.faq details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+.faq summary:hover{color:var(--azul)}
+.faq summary:focus-visible{outline:3px solid var(--azul);outline-offset:2px;border-radius:4px}
+.faq details p{margin:0 0 var(--sp-5);padding-right:44px;font-size:16px;line-height:1.65;opacity:.84;
+ max-width:70ch}
+
+/* banner de consentimento: so aparece se houver GA_ID e ninguem ainda tiver respondido */
+.consent{position:fixed;left:var(--sp-4);right:var(--sp-4);bottom:var(--sp-4);z-index:60;
+ background:var(--azul-escuro);color:var(--branco);border-radius:var(--r-card);
+ padding:var(--sp-5);box-shadow:0 14px 44px rgba(10,14,28,.34);
+ display:flex;align-items:center;gap:var(--sp-5);flex-wrap:wrap;
+ max-width:760px;margin:0 auto;font-family:var(--sans)}
+.consent[hidden]{display:none}
+.consent p{margin:0;font-size:14px;line-height:1.55;flex:1 1 300px;min-width:0;opacity:.92}
+.consent a{color:var(--amarelo);text-decoration:underline;text-underline-offset:2px}
+.consent-bt{display:flex;gap:var(--sp-3);flex:0 0 auto}
+.consent button{font-family:var(--sans);font-weight:700;font-size:14px;border:0;cursor:pointer;
+ border-radius:999px;padding:11px 20px;transition:transform .15s,opacity .15s}
+.consent button:hover{transform:translateY(-1px)}
+.consent .sim{background:var(--amarelo);color:var(--preto)}
+.consent .nao{background:transparent;color:var(--branco);box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.4)}
+.consent button:focus-visible{outline:3px solid var(--amarelo);outline-offset:3px}
+@media (max-width:620px){.consent{flex-direction:column;align-items:stretch;
+  gap:var(--sp-4);padding:var(--sp-4)}
+ /* em coluna, o flex-basis do paragrafo passaria a ser altura: 300px de vazio */
+ .consent p{flex:0 0 auto;min-width:0}
+ .consent-bt{display:grid;grid-template-columns:1fr 1fr}}
+/* rodape */
+.pe{background:var(--azul-escuro);color:var(--branco);padding:var(--sp-8) 0 var(--sp-6)}
+.pe-topo{display:flex;justify-content:space-between;align-items:flex-end;gap:var(--sp-6);
+ flex-wrap:wrap;padding-bottom:var(--sp-7);border-bottom:1px solid rgba(255,255,255,.16)}
+.pe h2{margin:0;max-width:12ch}
+.pe .marca-pe{height:34px;width:auto;display:block;margin-bottom:var(--sp-5)}
+.pe-fim{display:flex;justify-content:space-between;align-items:center;gap:var(--sp-5);
+ flex-wrap:wrap;padding-top:var(--sp-5);font-size:14px}
+.pe-fim ul{list-style:none;display:flex;gap:var(--sp-5);margin:0;padding:0;flex-wrap:wrap}
+.pe a:not(.cta){color:var(--branco);text-decoration:none;opacity:.78;transition:opacity .2s}
+.pe a:not(.cta):hover{opacity:1;text-decoration:underline}
+.pe .copy-pe{opacity:.55}
+.pe-contactos{display:flex;gap:var(--sp-5);flex-wrap:wrap;margin:var(--sp-4) 0 0;padding:0;
+ list-style:none;font-size:15px}
+
+/* testemunho em video: o still esta embebido, o mp4 vem do Mux ao carregar no play */
+.still{display:block;width:100%;padding:0;border:0;background:#000;cursor:pointer;
+ border-radius:12px;overflow:hidden;position:relative;line-height:0}
+.still img{display:block;width:100%;height:auto;opacity:.92;transition:opacity .25s,transform .35s}
+.still:hover img,.still:focus-visible img{opacity:1;transform:scale(1.03)}
+.still .play{position:absolute;inset:0;margin:auto;width:54px;height:54px;border-radius:50%;
+ background:var(--amarelo);display:flex;align-items:center;justify-content:center;
+ box-shadow:0 6px 22px rgba(0,0,0,.35);transition:transform .25s}
+.still .play::after{content:"";border-left:15px solid var(--azul-escuro);
+ border-top:9px solid transparent;border-bottom:9px solid transparent;margin-left:4px}
+.still:hover .play{transform:scale(1.09)}
+.still:focus-visible{outline:3px solid var(--amarelo);outline-offset:3px}
+#lightbox{border:0;padding:0;background:transparent;max-width:min(980px,92vw);width:100%}
+#lightbox::backdrop{background:rgba(10,14,28,.88)}
+#lightbox video{display:block;width:100%;height:auto;border-radius:12px;background:#000}
+#lightbox .fechar{position:absolute;top:-44px;right:0;background:none;border:0;color:#fff;
+ font-family:var(--sans);font-size:14px;cursor:pointer;padding:6px 2px;opacity:.85}
+#lightbox .fechar:hover{opacity:1}
+#lightbox form{position:relative}
+.fecho{display:flex;align-items:center;gap:var(--sp-5);flex-wrap:wrap}
+.nota{font-size:14px;opacity:.7}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}
+ .pista,.dizeres ul{animation:none}
+ .fita{overflow-x:auto;mask-image:none;-webkit-mask-image:none}
+ .fita .pista[aria-hidden="true"]{display:none}
+ .js .revela{opacity:1;transform:none}
+ .barra{transition:none}
+ .js .manifesto{height:auto}
+ .js .mural{height:auto;mask-image:none;-webkit-mask-image:none}
+ .mural-pista{transform:none!important} .mural-eco{display:none}
+ .mural figure{max-height:440px}
+
+ .js .manifesto w{color:var(--branco)}
+ .js .manifesto w.forte{color:var(--amarelo)}}
+@media (max-width:980px){.itens{grid-template-columns:repeat(2,1fr)}
+ .provas-grid{grid-template-columns:1fr}
+ .mural{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:860px){
+ section{padding:var(--sp-8) 0} .wrap{padding:0 var(--sp-3)}
+ .hero{padding:var(--sp-4) 0 var(--sp-6);min-height:auto} .topo{margin-bottom:var(--sp-6)}
+ nav ul{gap:var(--sp-4)} nav a{font-size:13px} .marca{height:30px}
+ .sub-hero{font-size:17px} .cta{padding:16px 26px;font-size:16px}
+ .pista img{height:22px} .pista,.fita{gap:var(--sp-6)}
+ .duas,.itens,.caps{grid-template-columns:1fr;gap:var(--sp-6)}
+ .dizem{column-count:1}
+ .provas-grid{grid-template-columns:1fr;gap:var(--sp-6)}
+ .pe-topo{flex-direction:column;align-items:flex-start}
+ .pe-fim{flex-direction:column;align-items:flex-start;gap:var(--sp-3)}
+ .faq summary{padding-right:36px} .faq details p{padding-right:0}
+ .mural{grid-template-columns:repeat(2,1fr);gap:var(--sp-4)}
+ .js .mural{height:70vh}
+ .mural figcaption{font-size:10px;padding:4px 8px}
+ .corpo{font-size:17px} .passos{grid-template-columns:1fr;gap:var(--sp-4)}
+ .passo{padding:var(--sp-5)}
+ .passo .num{font-size:40px} .cap{padding:var(--sp-5)} .versus{grid-template-columns:1fr}
+ .js .manifesto{padding:var(--sp-7) 0}
+ nav{display:none}
+ :root{--barra-h:58px}
+ .barra .wrap{padding-top:10px;padding-bottom:10px;justify-content:space-between}
+ .barra img{height:22px} .barra .cta-barra{display:inline-flex}
+ section[id],header[id]{scroll-margin-top:62px}
+ .lado{padding:var(--sp-5)}
+ .risca.flores,.risca.faixa2{height:14px;background-size:auto 14px}}
+@media (max-width:520px){.topo{flex-direction:column;align-items:flex-start;gap:var(--sp-3)}}
+</style>
+
+<style>
+.caso p{margin:0 0 1em}
+.caso .eyebrow{opacity:.75}
+/* hero */
+.caso-hero{background:var(--azul);color:var(--branco);padding:calc(var(--barra-h) + var(--sp-7)) 0 var(--sp-8)}
+
+.voltar-topo{display:inline-block;font-family:var(--sans);font-weight:600;font-size:14px;opacity:.75;margin-bottom:var(--sp-6)}
+.voltar-topo:hover{opacity:1}
+.caso-hero h1{font-size:clamp(36px,5.6vw,68px);line-height:1.1;margin-bottom:var(--sp-5);max-width:20ch}
+.caso-hero .sub-hero{max-width:60ch}
+.etiquetas{list-style:none;display:flex;flex-wrap:wrap;gap:10px;margin:var(--sp-5) 0 0;padding:0}
+.etiquetas li{font-family:var(--sans);font-weight:600;font-size:13px;border:1.5px solid rgba(230,230,230,.55);
+ border-radius:var(--r-pill);padding:7px 14px}
+.etiquetas li:last-child{background:var(--amarelo);color:var(--preto);border-color:var(--amarelo)}
+/* numeros */
+.numeros{background:var(--amarelo);padding:var(--sp-7) 0}
+.stats{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:var(--sp-4)}
+.stat{background:var(--branco);border-radius:var(--r-card);padding:var(--sp-5);display:flex;flex-direction:column;gap:6px}
+.stat-rot{font-family:var(--sans);font-weight:600;font-size:13px;letter-spacing:.02em;line-height:1.35;min-height:2.7em}
+.stat-antes{font-size:14px;opacity:.6} .stat-antes b{font-weight:700}
+.stat-agora{font-family:var(--serif);font-weight:700;font-size:clamp(34px,3.4vw,48px);line-height:1;color:var(--laranja);letter-spacing:-.02em}
+/* partida */
+.partida{display:grid;grid-template-columns:1.25fr .9fr;gap:var(--sp-8);align-items:start}
+.partida p{font-size:18px;line-height:1.7;max-width:62ch}
+.quem{display:grid;gap:var(--sp-4)}
+.quem .lado{padding:var(--sp-5)}
+.quem .lado h3{font-size:19px;margin-bottom:var(--sp-4)}
+.quem .eles{background:#fff}
+.quem ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.quem li{display:grid;grid-template-columns:16px 1fr;gap:8px;font-size:15px;line-height:1.5}
+.quem .mark{font-size:9px;line-height:2.3;color:var(--azul)}
+.quem .bom .mark{color:var(--laranja)}
+/* diagnostico */
+.diag{max-width:none}
+.diag p{font-size:18px;line-height:1.7;max-width:64ch}
+.diag ul{list-style:none;margin:var(--sp-6) 0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:var(--sp-4)}
+.diag li{background:var(--branco);color:var(--preto);border-radius:var(--r-card);padding:var(--sp-5);font-size:16px;line-height:1.6}
+.diag li strong{font-family:var(--serif);font-size:18px;line-height:1.3}
+.adm-rot{margin-top:var(--sp-6)}
+.adm{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-4)}
+.adm li{border:2px solid rgba(35,48,79,.35);border-radius:var(--r-card);padding:var(--sp-5);display:flex;flex-direction:column;gap:6px;position:relative}
+.adm .letra{font-family:var(--serif);font-weight:700;font-size:56px;line-height:1;opacity:.35}
+.adm strong{font-family:var(--sans);font-size:16px}
+.adm span:not(.letra){font-size:15px;line-height:1.5;opacity:.85}
+.adm li.ativo{background:var(--azul-escuro);color:var(--branco);border-color:var(--azul-escuro)}
+.adm li.ativo .letra{opacity:1;color:var(--amarelo)}
+.adm em{font-style:normal;position:absolute;top:var(--sp-4);right:var(--sp-4);background:var(--laranja);color:#fff;
+ font-family:var(--sans);font-weight:600;font-size:11px;letter-spacing:.06em;text-transform:uppercase;border-radius:var(--r-pill);padding:5px 10px}
+/* ciclos */
+.trilho{font-family:var(--sans);font-weight:600;font-size:15px;color:var(--azul);margin:var(--sp-5) 0 var(--sp-7)}
+.ciclo{display:grid;grid-template-columns:280px 1fr;gap:var(--sp-7);padding:var(--sp-7) 0;border-top:1px solid rgba(20,24,40,.14)}
+.ciclo-cab{position:sticky;top:calc(var(--barra-h) + var(--sp-4));align-self:start}
+.ciclo-num{display:block;font-family:var(--serif);font-weight:700;font-size:clamp(56px,6vw,84px);line-height:.9;color:var(--laranja);letter-spacing:-.03em}
+.ciclo-tipo{font-family:var(--sans);font-weight:600;font-size:12px;letter-spacing:.08em;text-transform:uppercase;opacity:.6;margin:var(--sp-4) 0 6px!important}
+.ciclo h3{font-size:clamp(24px,2.4vw,30px);line-height:1.2}
+.ciclo-corpo{display:grid;gap:var(--sp-5)}
+.ciclo-corpo p,.ciclo-corpo li{font-size:17px;line-height:1.7;max-width:64ch}
+.ciclo-corpo ul{padding-left:1.1em;margin:0 0 1em}
+.ciclo-corpo .eyebrow{margin-bottom:var(--sp-3)}
+.aconteceu{background:#fff;border-radius:var(--r-card);padding:var(--sp-5);border-left:6px solid var(--laranja)}
+.aprendemos{background:var(--azul-escuro);color:var(--branco);border-radius:var(--r-card);padding:var(--sp-5)}
+.aprendemos .eyebrow{color:var(--amarelo);opacity:1}
+.aprendemos p:not(.eyebrow){font-family:var(--serif);font-weight:700;font-size:clamp(19px,1.8vw,23px)!important;line-height:1.4!important;letter-spacing:-.01em}
+.aprendemos p:last-child,.aconteceu p:last-child,.parte p:last-child{margin-bottom:0}
+.ciclo.curso .ciclo-num{font-size:clamp(40px,4.4vw,60px);color:var(--azul)}
+.ciclo.curso .ciclo-corpo{border:2px dashed rgba(79,103,177,.5);border-radius:var(--r-card);padding:var(--sp-5)}
+/* desbloqueios */
+.azul h2 em{background:var(--amarelo)}
+.azul .corpo p{opacity:.92}
+.desbs{list-style:none;margin:var(--sp-7) 0 0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:var(--sp-5)}
+.desb{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:var(--r-card);padding:var(--sp-6)}
+.desb:first-child,.desb:last-child:nth-child(even){grid-column:1/-1}
+.desb h3{font-size:clamp(20px,2vw,25px);line-height:1.25;margin-bottom:var(--sp-4);color:var(--amarelo)}
+.desb p,.desb li{font-size:16px;line-height:1.68;opacity:.94}
+.desb ul{padding-left:1.1em;margin:0 0 1em} .desb li{margin-bottom:.5em}
+.desb p:last-child{margin-bottom:0}
+/* nao correu */
+.duas-col{display:grid;grid-template-columns:.8fr 1.2fr;gap:var(--sp-8);align-items:start}
+.nao ul{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-4)}
+.nao li{background:rgba(13,13,13,.06);border-radius:var(--r-card);padding:var(--sp-5);font-size:16px;line-height:1.65}
+.nao li strong{display:block;font-family:var(--serif);font-size:19px;line-height:1.3;margin-bottom:6px}
+/* mudou */
+.mudou-txt p{font-family:var(--serif);font-weight:700;font-size:clamp(22px,2.6vw,34px);line-height:1.32;letter-spacing:-.015em;max-width:30ch}
+.mudou-txt p + p{font-family:var(--body);font-weight:400;font-size:18px;line-height:1.7;letter-spacing:0;max-width:62ch;opacity:.92}
+.cit{margin:var(--sp-7) 0 0;padding:var(--sp-6);background:var(--amarelo);color:var(--preto);border-radius:var(--r-card);max-width:720px}
+.cit p{font-family:var(--serif);font-weight:700;font-size:clamp(26px,3.2vw,40px);line-height:1.15;margin:0 0 var(--sp-3)}
+.cit cite{font-style:normal;font-family:var(--sans);font-weight:600;font-size:14px}
+/* para ti */
+.para-ti{list-style:none;margin:var(--sp-6) 0 0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:var(--sp-5)}
+.para-ti li{background:var(--branco);color:var(--preto);border-radius:var(--r-card);padding:var(--sp-5);display:grid;grid-template-columns:auto 1fr;gap:var(--sp-4);align-items:start}
+.para-ti .n{font-family:var(--serif);font-weight:700;font-size:34px;line-height:1;color:var(--laranja)}
+.para-ti p{margin:0;font-size:17px;line-height:1.6}
+/* fecho */
+.fim-caso h2{max-width:20ch} .fim-caso .corpo{margin-bottom:var(--sp-6);opacity:.95}
+.fim-caso .fecho{margin-bottom:var(--sp-8)}
+.outro{display:grid;grid-template-columns:1fr auto;grid-template-rows:auto auto auto;column-gap:var(--sp-5);
+ border-top:1px solid rgba(255,255,255,.35);padding-top:var(--sp-5);max-width:720px}
+.outro .eyebrow{grid-column:1;margin-bottom:6px}
+.outro strong{grid-column:1;font-family:var(--serif);font-size:clamp(24px,2.6vw,32px);line-height:1.15}
+.outro span:not(.eyebrow):not(.seta){grid-column:1;font-size:16px;opacity:.9;margin-top:6px}
+.outro .seta{grid-column:2;grid-row:1/4;align-self:center;font-size:34px;transition:transform .2s}
+.outro:hover .seta{transform:translateX(6px)}
+@media (max-width:980px){.stats{grid-template-columns:repeat(2,1fr)} .partida,.duas-col{grid-template-columns:1fr;gap:var(--sp-6)}
+ .ciclo{grid-template-columns:1fr;gap:var(--sp-4)} .ciclo-cab{position:static}}
+@media (max-width:860px){.caso-hero{padding:calc(var(--barra-h) + var(--sp-5)) 0 var(--sp-7)}
+ .diag ul,.adm,.desbs,.para-ti{grid-template-columns:1fr} .desb{padding:var(--sp-5)}
+ .partida p,.diag p,.ciclo-corpo p,.ciclo-corpo li{font-size:16px}
+ .ciclo{padding:var(--sp-6) 0} .numeros{padding:var(--sp-6) 0}}
+@media (max-width:520px){.stats{grid-template-columns:1fr 1fr;gap:var(--sp-3)} .stat{padding:var(--sp-4)}
+ .stat-rot{min-height:0;font-size:12px} .etiquetas li{font-size:12px}}
+</style>
+
+</head><body>
+<div class="barra visivel">
+  <div class="wrap">
+    <a href="/" aria-label="notSPAM.studio, início"><img src="/a/1609d0bbc33d.png" alt="notSPAM.studio"></a>
+    
+    <a class="cta amarelo cta-barra" href="https://zspwi6k41ps.typeform.com/to/Ip7VY3Y3" target="_blank" rel="noopener">notSPAM.check<span class="seta">&rarr;</span></a>
+  </div>
+</div>
+<main class="caso">
+
+<header class="caso-hero" id="topo">
+  <div class="wrap">
+    <a class="voltar-topo" href="/">&larr; notSPAM.studio</a>
+    <p class="eyebrow">Caso de consultoria · Frederica</p>
+    <h1>de enviar tudo a toda a gente <em>para uma conta que sabe a quem fala</em></h1>
+    <p class="sub-hero">Uma marca de suplementos com subscrições, uma equipa que já fazia tudo, e uma pergunta que ninguém estava a fazer: para quem é este email?</p>
+    <ul class="etiquetas"><li>Ecommerce</li><li>Suplementos com subscrição</li><li>Klaviyo</li><li>Consultoria em curso</li></ul>
+  </div>
+</header><section class="numeros"><div class="wrap"><ul class="stats"><li class="stat"><span class="stat-rot">Abertura das campanhas</span>
+      <span class="stat-antes">antes <b>25%</b></span>
+      <span class="stat-agora">59%</span></li><li class="stat"><span class="stat-rot">Clique dos flows</span>
+      <span class="stat-antes">antes <b>3,4%</b></span>
+      <span class="stat-agora">8,1%</span></li><li class="stat"><span class="stat-rot">Bounce</span>
+      <span class="stat-antes">antes <b>1,27%</b></span>
+      <span class="stat-agora">0,37%</span></li><li class="stat"><span class="stat-rot">Receita por cada mil emails enviados</span>
+      <span class="stat-antes">antes <b>1x</b></span>
+      <span class="stat-agora">2,3x</span></li></ul></div></section>
+<section class="claro"><div class="wrap partida">
+  <div><p class="eyebrow">O ponto de partida</p><p>A Frederica vende suplementos em gomas, com uma boa parte do negócio assente em subscrições, em Portugal, em Espanha e para o mercado internacional. Tem uma equipa interna que escreve e desenha os emails. Não precisava de alguém para fazer os emails. Precisava de alguém que dissesse quais emails fazer, para quem, e porquê.</p>
+<p>É esse o nosso papel na consultoria. A equipa da Frederica escreve o copy e desenha. Nós definimos a estratégia, os segmentos, os flows a criar e o ângulo de cada produto, revemos os emails antes de saírem e lemos os resultados de cada mês com a equipa.</p></div>
+  <aside class="quem">
+    <p class="eyebrow">Quem faz o quê</p>
+    <div class="lado eles"><h3>A equipa da Frederica</h3><ul><li><span class="mark">●</span><span>Copy dos emails</span></li><li><span class="mark">●</span><span>Design dos emails</span></li></ul></div>
+    <div class="lado bom"><h3>notSPAM.studio</h3><ul><li><span class="mark">●</span><span>Estratégia e prioridades de cada ciclo</span></li><li><span class="mark">●</span><span>Segmentos e flows a criar</span></li><li><span class="mark">●</span><span>Ângulo de cada produto</span></li><li><span class="mark">●</span><span>Revisão dos emails antes do envio</span></li><li><span class="mark">●</span><span>Leitura dos resultados de cada mês</span></li></ul></div>
+  </aside>
+</div></section>
+<section class="lilas-sec"><div class="wrap">
+  <p class="eyebrow">O diagnóstico</p>
+  <h2>Onde estava o buraco</h2>
+  <div class="diag"><p>Começámos, como em todas as consultorias, pelo diagnóstico da conta inteira. O que encontrámos não era falta de esforço. Era esforço mal apontado.</p>
+<ul>
+<li><strong>As campanhas iam para a base inteira.</strong> Abriam entre 25% e 28%. Não é um número mau à primeira vista. Mas uma média de 25% numa base grande esconde duas realidades muito diferentes: um grupo que lê tudo e um grupo enorme que já não lê nada. Enquanto as duas andarem misturadas, os números não dizem nada e o domínio paga a fatura.</li>
+<li><strong>Os flows que apanham quem está quase a comprar estavam parados.</strong> A recuperação de carrinho estava desligada e as boas-vindas eram curtas. Ou seja, as pessoas mais próximas da compra eram as que menos comunicação recebiam.</li>
+<li><strong>Tudo saía só em português</strong>, para uma loja com clientes em três línguas.</li>
+<li><strong>O score de entregabilidade estava em 52 em 100</strong> e tinha caído no último mês.</li>
+</ul>
+<p>Pela lente do nosso método, o maior buraco estava no meio do balde: a água entrava, mas escapava. Era aí que tínhamos de começar.</p></div>
+  <p class="eyebrow adm-rot">Método ADM: onde fura o balde</p>
+  <ul class="adm"><li class="adm-l"><span class="letra">A</span>
+      <strong>Atração</strong><span>A água que entra: como chega o contacto e se o primeiro email chega à caixa de entrada.</span></li><li class="adm-l ativo"><span class="letra">D</span>
+      <strong>Desenho dos flows</strong><span>A água que escapa: os automatismos que apanham quem está perto de comprar.</span><em>o maior buraco</em></li><li class="adm-l"><span class="letra">M</span>
+      <strong>Máquina de recompra</strong><span>A água que volta: fazer comprar outra vez, e deixar mais de cada vez.</span></li></ul>
+</div></section>
+<section class="claro ciclos-sec"><div class="wrap">
+  <p class="eyebrow">Os ciclos</p>
+  <h2>Uma métrica de cada vez</h2>
+  <p class="corpo">Cada ciclo foca a métrica que está a travar o resultado. Só se passa à seguinte quando esta deixa de ser o problema.</p>
+  <p class="trilho">Entregabilidade e flows &rarr; Abertura &rarr; Clique &rarr; Recompra</p>
+  
+  <article class="ciclo">
+    <div class="ciclo-cab"><span class="ciclo-num">01</span>
+      <p class="ciclo-tipo">Ciclo 1</p>
+      <h3>Parar a fuga</h3></div>
+    <div class="ciclo-corpo"><div class="parte"><p class="eyebrow">O que fizemos</p><p>Deixámos de enviar para a base inteira. As campanhas passaram a rodar por segmentos de interação recente: quem abriu ou clicou nos últimos 30, 60 e 90 dias. Quem já não respondia saiu dos envios regulares. Ao mesmo tempo, os flows que estavam parados voltaram a ser prioridade: a recuperação de carrinho, umas boas-vindas a sério e uma sequência nova para quem subscreveu a newsletter e nunca comprou.</p></div><div class="parte"><p class="eyebrow">Porquê</p><p>Uma campanha enviada a quem não abre não é só um envio desperdiçado. Cada email ignorado ensina os servidores de email que aquele remetente não interessa, e isso pesa na entrada dos emails seguintes, incluindo os que vão para quem queria mesmo recebê-los. Cortar quem não lê é a forma mais rápida de proteger quem lê.</p></div><div class="aconteceu"><p class="eyebrow">O que aconteceu</p><p>Os bounces desceram de 1,27% em janeiro para 0,37% em julho e mantiveram-se aí em agosto, já com mais 47% de volume de envios. O volume bruto desceu nas primeiras semanas, e a própria equipa o resumiu bem: "tivemos uma queda de volume bruto, porém uma melhoria na saúde do domínio."</p>
+<p>Nos flows, entre janeiro e abril, a abertura passou de 38% para 56%, o clique de 3,4% para 8,1% e a taxa de encomenda mais do que duplicou. O primeiro email da sequência para quem nunca comprou converte sete vezes acima da média da conta.</p></div><div class="aprendemos"><p class="eyebrow">O que aprendemos</p><p>Cortar segmentos frios não custou receita. É o medo mais comum quando se propõe limpar uma lista ("mas são pessoas que podem comprar"), e é o mais fácil de testar.</p></div></div>
+  </article>
+  <article class="ciclo">
+    <div class="ciclo-cab"><span class="ciclo-num">02</span>
+      <p class="ciclo-tipo">Ciclo 2</p>
+      <h3>Falar do produto que cada pessoa compra</h3></div>
+    <div class="ciclo-corpo"><div class="parte"><p class="eyebrow">O que vimos</p><p>Com a base a responder, os números começaram a ser legíveis. E a leitura de março foi clara: as campanhas para segmentos específicos abriam acima de 50%; as que ainda iam para a base geral ficavam abaixo de 25%. O mesmo tipo de conteúdo, o dobro da abertura, só por escolher melhor a quem.</p>
+<p>Havia outro sinal. A campanha para quem tinha comprado uma vez falava da subscrição em geral, e quase ninguém clicava.</p></div><div class="parte"><p class="eyebrow">O que fizemos</p><p>Trocámos as mensagens genéricas por comunicação sobre o produto que cada pessoa compra. Quem comprou gomas para o cabelo recebe conteúdo sobre cabelo, quem comprou para dormir recebe conteúdo sobre sono. Fizemos o mesmo nas pessoas que subscreveram e nunca compraram: em vez de um email genérico sobre a marca, um email por produto.</p></div><div class="aconteceu"><p class="eyebrow">O que aconteceu</p><p>A versão por produto da campanha a quem tinha comprado uma vez abriu entre 10 e 26 pontos acima da genérica. Nas pessoas que nunca tinham comprado, a comunicação por produto rendeu quase quinze vezes mais do que a genérica.</p>
+<p>A abertura das campanhas passou de 25% em janeiro para 59% em julho. Em julho, as oito campanhas abriram todas entre 58,7% e 60,7%.</p>
+<p>Com a base mais saudável, deu para alargar a janela de quem conta como ativo, de 90 para 180 dias, sem perder abertura. A base ativa cresceu cerca de 30%.</p></div><div class="aprendemos"><p class="eyebrow">O que aprendemos</p><p>A personalização que mexe nos números não é pôr o nome no assunto. É falar do problema que aquela pessoa já disse que tem, através do que comprou.</p></div></div>
+  </article>
+  <article class="ciclo">
+    <div class="ciclo-cab"><span class="ciclo-num">03</span>
+      <p class="ciclo-tipo">Ciclo 3</p>
+      <h3>Do abrir ao clicar</h3></div>
+    <div class="ciclo-corpo"><div class="parte"><p class="eyebrow">O que vimos</p><p>Em março, a abertura já estava boa e o clique das campanhas estava em 0,31%. A leitura foi direta: as pessoas abriam e não clicavam, por isso o problema não estava no assunto, estava dentro do email. Quando fomos ver onde se abriam os emails, quase metade das aberturas era no telemóvel. E no telemóvel os botões e as avaliações dos produtos eram pequenos demais.</p></div><div class="parte"><p class="eyebrow">O que fizemos</p><ul>
+<li>O design passou a pensar primeiro no telemóvel: botões maiores, avaliações legíveis.</li>
+<li>Cada email passou a falar de um produto, com um pedido claro.</li>
+<li>Os testes A/B passaram a ser só nos produtos com clique fraco, e a testar o que muda a decisão (mais abaixo).</li>
+<li>Fixámos uma meta mínima de 1% de clique para as campanhas.</li>
+</ul></div><div class="aconteceu"><p class="eyebrow">O que aconteceu</p><p>O clique das campanhas triplicou entre março e junho. Em junho subiu mesmo com o dobro do volume de envios, o que é raro: normalmente, mais volume dilui o clique. Os emails de um só produto chegaram a 1% de clique, contra 0,45% a 0,70% nos emails com vários produtos.</p></div><div class="aprendemos"><p class="eyebrow">O que aprendemos</p><p>Um email com cinco produtos parece mais generoso. Na prática obriga a pessoa a escolher, e quem tem de escolher muitas vezes não escolhe nada.</p></div></div>
+  </article>
+  <article class="ciclo curso">
+    <div class="ciclo-cab"><span class="ciclo-num">Agora</span>
+      <p class="ciclo-tipo">Ciclo em curso</p>
+      <h3>Fazer voltar quem já comprou</h3></div>
+    <div class="ciclo-corpo"><div class="parte"><p>Com a base a abrir e a clicar, o foco passa para a última letra do método: a máquina de recompra. Numa marca de subscrição, é aqui que está o valor de cada cliente ao longo do tempo.</p>
+<p>O número de subscritores ativos multiplicou-se por 2,6 desde dezembro, e o flow de boas-vindas à comunidade de subscritores tornou-se o mais rentável da conta. Os próximos passos já estão definidos: a segunda compra de quem só comprou uma vez, com o produto complementar ao que já tem; o cross-sell entre produtos; e a recuperação de quem cancelou a subscrição.</p>
+<p>Pelo caminho, fizemos um envio com um objetivo invulgar: não vender, só acordar quem estava adormecido. Trouxe de volta cerca de 12% dessas pessoas, que voltaram a contar como ativas.</p></div></div>
+  </article>
+</div></section>
+<section class="azul"><div class="wrap">
+  <p class="eyebrow">Os desbloqueios</p>
+  <h2>O que acontece <em>entre as reuniões</em></h2>
+  <div class="corpo"><p>Numa consultoria, o trabalho que mais pesa nos resultados acontece entre as reuniões. Estes foram os momentos que fizeram diferença na Frederica.</p></div>
+  <ul class="desbs"><li class="desb"><h3>Auditoria dos emails antes do envio</h3><p>Na primeira revisão dos automatismos encontrámos botões sem link, emails feitos só de imagem (que os filtros de spam tratam com desconfiança e que não se leem com as imagens desligadas) e botões diferentes no telemóvel e no computador. Nenhum destes erros aparece num relatório de métricas. Só se encontram a abrir o email antes de ele sair. Hoje essa revisão faz parte de cada envio.</p></li><li class="desb"><h3>Teste de CTA e de palavras</h3><p>A equipa testava variações à superfície, como "30% OFF" contra "Desconto 30%". Estes testes dão quase sempre empate, porque a pessoa não decide pela forma de escrever o desconto. Passámos a testar o que muda a decisão: começar pelo problema ou pela solução, uma frase curiosa ou uma frase específica, um tom empático ou um tom promocional.</p></li><li class="desb"><h3>Para quem e o quê: por produto e por língua</h3><p>A língua de cada pessoa era lida pela localização. O problema: um português a viver em Londres recebia tudo em inglês. Passou a ser lida pelo browser. Com a separação por língua, o português manteve-se acima de 50% de abertura e o inglês e o espanhol ganharam comunicação própria, em vez de receberem uma tradução do que era pensado para Portugal.</p></li><li class="desb"><h3>Linha de comunicação</h3><p>Cada produto tem o seu ângulo. Nas gomas para o cabelo, falar dos benefícios que se veem já, em vez de "força", que é abstrato. Num produto com menos tração, deixar de lhe dar campanhas isoladas e pô-lo dentro de rotinas com os outros produtos, onde faz sentido a quem já compra.</p></li><li class="desb"><h3>O playbook das ruturas de stock</h3><p>Uma rutura de stock costuma ser tratada como um problema. Tratámo-la como um lançamento: anunciar que esgotou antes de anunciar que voltou, criar desejo enquanto não há, e avisar primeiro quem pediu para ser avisado. A lista de espera abre a 60% e clica a 27%, e os segmentos de regresso de stock convertem entre 12% e 16%. Em agosto, o aviso de regresso de stock foi cerca de 1% dos envios e metade da receita das campanhas. A equipa da Frederica adotou o playbook e repete-o em cada lançamento e em cada rutura.</p></li><li class="desb"><h3>Teste de oferta no pop-up</h3><p>A oferta mistério parecia mais interessante do que um desconto simples. Testámos. Em Portugal e em Espanha, o desconto direto ganhou, e é o que está ativo.</p></li></ul>
+</div></section>
+<section class="claro"><div class="wrap duas-col">
+  <div><p class="eyebrow">Com honestidade</p><h2>O que não correu como esperávamos</h2></div>
+  <div class="nao"><ul>
+<li><strong>Uma sequência de lançamento longa demais cansou a lista mais quente.</strong> O último email de uma sequência à lista VIP abriu a cerca de 16%, contra mais de 40% nos primeiros. A partir daí, as sequências de lançamento ficaram mais curtas.</li>
+<li><strong>Os primeiros envios a inativos baixaram a abertura da conta.</strong> Foi o que nos levou à rotação por segmentos de interação, em vez de tentar acordar toda a gente de uma vez.</li>
+</ul></div>
+</div></section>
+<section class="verde mudou"><div class="wrap">
+  <p class="eyebrow">O que mudou</p>
+  <div class="mudou-txt"><p>A receita por cada mil emails enviados mais do que duplicou entre janeiro e setembro.</p>
+<p>Em julho, os flows renderam mais 11,5% com menos envios. Mas a mudança mais importante não está num número: a conta passou a trabalhar com segmentos que respondem, em vez de mandar tudo a toda a gente, e a equipa tem um método que repete sozinha a cada lançamento.</p></div>
+  
+</div></section>
+<section class="lilas-sec"><div class="wrap">
+  <p class="eyebrow">E no teu caso?</p>
+  <h2>O que isto pode significar para a tua loja</h2>
+  <ol class="para-ti"><li><span class="n">01</span><p>Se as tuas campanhas vão para a base inteira, a tua taxa de abertura média está a esconder-te quem lê e quem não lê. Separa antes de medir.</p></li><li><span class="n">02</span><p>Se tens mais campanhas do que flows a trabalhar, provavelmente as pessoas mais perto da compra são as que menos recebem.</p></li><li><span class="n">03</span><p>Se as pessoas abrem e não clicam, o problema está dentro do email, não no assunto. Começa por ver o email no telemóvel.</p></li><li><span class="n">04</span><p>Se tens subscrições, o maior crescimento não está em captar mais pessoas, está em fazer a segunda e a terceira compra acontecerem.</p></li></ol>
+</div></section>
+<section class="laranja fim-caso"><div class="wrap">
+  <h2>Queres saber onde está o buraco no teu balde?</h2>
+  <p class="corpo">A consultoria começa sempre pelo Diagnóstico ADM: olhamos para a conta inteira, dizemos-te em que parte está a maior fuga e é por aí que começamos.</p>
+  <div class="fecho"><a class="cta amarelo" href="mailto:ola@notspamstudio.com?subject=Consultoria%20notSPAM">Vamos falar<span class="seta">&rarr;</span></a></div>
+  <a class="outro" href="/consultoria/acr"><span class="eyebrow">Outro caso</span><strong>Ana Cristina Rosa</strong><span>Uma escola digital, uma plataforma nova e um público que decide numa conversa.</span><span class="seta">&rarr;</span></a>
+</div></section>
+</main>
+<footer class="pe">
+  <div class="wrap">
+    <div class="pe-topo">
+      <div>
+        <img class="marca-pe" src="/a/1609d0bbc33d.png" alt="notSPAM.studio">
+        <h2>Vamos falar?</h2>
+        <ul class="pe-contactos">
+          <li><a href="mailto:ola@notspamstudio.com">ola@notspamstudio.com</a></li>
+          <li><a href="https://www.linkedin.com/in/adrianaguimaraes-emkt" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+      <a class="cta amarelo" href="https://zspwi6k41ps.typeform.com/to/Ip7VY3Y3" target="_blank" rel="noopener">Faz o teu notSPAM.check<span class="seta">&rarr;</span></a>
+    </div>
+    <div class="pe-fim">
+      <span class="copy-pe">&copy; 2026 notSPAM.studio</span>
+      <ul>
+        <li><a href="/politicadeprivacidade/">Política de Privacidade</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<div class="consent" id="consent" role="region" aria-label="Consentimento de cookies" hidden>
+  <p>Usamos cookies para perceber como o site é usado e para comunicar os nossos serviços.
+     Podes recusar e continuar a navegar. <a href="politicadeprivacidade/">Política de Privacidade</a></p>
+  <div class="consent-bt">
+    <button type="button" class="nao" id="consent-nao">Recusar</button>
+    <button type="button" class="sim" id="consent-sim">Aceitar</button>
+  </div>
+</div>
+
+<script>
+(function(){
+  var GA = 'G-70PRXPKGZK';
+  var caixa = document.getElementById('consent');
+  if (!caixa || !GA) return;
+  var CHAVE = 'ns-consent', guardado = null;
+  try { guardado = localStorage.getItem(CHAVE); } catch (e) {}
+  function carregarGA(){
+    if (window.__gaCarregado) return;
+    window.__gaCarregado = true;
+    var s = document.createElement('script');
+    s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){ window.dataLayer.push(arguments); };
+    gtag('js', new Date()); gtag('config', GA, {anonymize_ip: true});
+  }
+  function responder(v){
+    try { localStorage.setItem(CHAVE, v); } catch (e) {}
+    caixa.hidden = true;
+    if (v === 'sim') carregarGA();
+  }
+  if (guardado === 'sim') { carregarGA(); return; }
+  if (guardado === 'nao') return;
+  caixa.hidden = false;
+  document.getElementById('consent-sim').addEventListener('click', function(){ responder('sim'); });
+  document.getElementById('consent-nao').addEventListener('click', function(){ responder('nao'); });
+})();
+</script>
+
+<script>
+(function(){var r=document.querySelectorAll('.revela');if(!('IntersectionObserver' in window)){r.forEach(function(e){e.classList.add('dentro')});return}
+var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('dentro');o.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});r.forEach(function(e){o.observe(e)})})();
+</script>
+</body></html>
